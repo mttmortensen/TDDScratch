@@ -13,9 +13,12 @@ namespace TDDScratch
             return num1 + num2;
         }
 
-        public double FahrenheitToCelsius(double f)
+        public double FahrenheitToCelsius(int f)
         {
-            return (f - 32) * 5 / 9;
+
+            double formula = (f - 32) * 5 / 9;
+
+            return Math.Floor(formula);
         }
 
         public bool IsEven(int num)

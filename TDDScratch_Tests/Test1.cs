@@ -51,10 +51,10 @@ namespace TDDScratch_Tests
             var calculator = new Calculator();
 
             // Act
-            double celsius = calculator.FahrenheitToCelsius(69);
+            double celsius = calculator.FahrenheitToCelsius(75);
 
             // Assert 
-            Assert.AreEqual(20.556, celsius);
+            Assert.AreEqual(23, celsius);
         }
     }
 }
