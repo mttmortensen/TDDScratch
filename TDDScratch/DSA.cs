@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TDDScratch
 {
-    internal class DSA
+    public class DSA
     {
     }
 }

@@ -3,7 +3,7 @@
 namespace TDDScratch_Tests
 {
     [TestClass]
-    public sealed class BasicCalculatorTests
+    public class BasicCalculatorTests
     {
         [TestMethod]
         public void AdditionOfTwoNumbersTest()
