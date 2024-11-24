@@ -15,7 +15,7 @@ namespace TDDScratch
 
         public double FahrenheitToCelsius(double f)
         {
-            throw new NotImplementedException();
+            return (f - 32) * 5 / 9;
         }
 
         public bool IsEven(int num)
