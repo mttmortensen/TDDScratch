@@ -57,4 +57,14 @@ namespace TDDScratch_Tests
             Assert.AreEqual(23, celsius);
         }
     }
+
+    [TestClass]
+    public class DSATests
+    {
+        [TestMethod]
+        public void ReverseStringTest()
+        {
+
+        }
+    }
 }
