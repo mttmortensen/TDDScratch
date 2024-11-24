@@ -66,9 +66,9 @@ namespace TDDScratch_Tests
         {
             var dsa = new DSA();
 
-            string reversed = dsa.ReverseString("hello");
+            string reversed = dsa.ReverseString("acceleration");
 
-            Assert.AreEqual("olleh", reversed);
+            Assert.AreEqual("noitarelecca", reversed);
         }
     }
 }
