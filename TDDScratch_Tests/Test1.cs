@@ -39,10 +39,10 @@ namespace TDDScratch_Tests
             var calculator = new Calculator();
 
             // Act
-            bool isEven = calculator.IsEven(4);
+            bool isFalse = calculator.IsEven(3);
 
             // Assert 
-            Assert.IsTrue(isEven);
+            Assert.IsFalse(isFalse);
         }
     }
 }

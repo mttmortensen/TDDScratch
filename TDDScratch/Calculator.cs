@@ -8,17 +8,22 @@ namespace TDDScratch
 {
     public class Calculator
     {
-        public static int Add(int num1, int num2)
+        public int Add(int num1, int num2)
         {
             return num1 + num2;
         }
 
-        public static bool IsEven(int v)
+        public bool IsEven(int num)
         {
-            throw new NotImplementedException();
+            if (num == 1 % 2)
+            {
+                return false;
+            }
+
+            return true;
         }
 
-        public static int Multiply(int num1, int num2)
+        public int Multiply(int num1, int num2)
         {
             return num1 * num2;
         }
