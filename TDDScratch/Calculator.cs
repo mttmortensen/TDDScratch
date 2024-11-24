@@ -15,7 +15,7 @@ namespace TDDScratch
 
         public int Multiply(int num1, int num2)
         {
-            throw new NotImplementedException();
+            return num1 * num2;
         }
     }
 }
