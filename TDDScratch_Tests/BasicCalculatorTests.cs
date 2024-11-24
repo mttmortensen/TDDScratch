@@ -64,7 +64,11 @@ namespace TDDScratch_Tests
         [TestMethod]
         public void ReverseStringTest()
         {
+            var dsa = new DSA();
 
+            string reversed = dsa.ReverseString("hello");
+
+            Assert.AreEqual("olleh", reversed);
         }
     }
 }

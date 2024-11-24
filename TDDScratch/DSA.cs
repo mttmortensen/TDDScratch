@@ -8,5 +8,9 @@ namespace TDDScratch
 {
     public class DSA
     {
+        public string ReverseString(string stringToReverse)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
