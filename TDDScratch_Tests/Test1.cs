@@ -44,5 +44,17 @@ namespace TDDScratch_Tests
             // Assert 
             Assert.IsTrue(isEven);
         }
+
+        [TestMethod]
+        public void FahrenheitToCelsiusTest()
+        {
+            var calculator = new Calculator();
+
+            // Act
+            double celsius = calculator.FahrenheitToCelsius(32);
+
+            // Assert 
+            Assert.AreEqual(0, celsius);
+        }
     }
 }

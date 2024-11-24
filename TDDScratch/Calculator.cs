@@ -13,6 +13,11 @@ namespace TDDScratch
             return num1 + num2;
         }
 
+        public double FahrenheitToCelsius(double f)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool IsEven(int num)
         {
             if (num % 2 == 1)
