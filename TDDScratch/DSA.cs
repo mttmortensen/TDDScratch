@@ -10,7 +10,14 @@ namespace TDDScratch
     {
         public string ReverseString(string stringToReverse)
         {
-            throw new NotImplementedException();
+            string reversedString = "";
+
+            for (int i = stringToReverse.Length - 1; i >= 0; i--) 
+            {
+                reversedString += stringToReverse[i];    
+            }
+
+            return reversedString;
         }
     }
 }
