@@ -31,5 +31,18 @@ namespace TDDScratch_Tests
 
             Assert.AreEqual(20, result);
         }
+
+        [TestMethod]
+        public void IsEvenTest()
+        {
+            // Arrange 
+            var calculator = new Calculator();
+
+            // Act
+            bool isEven = calculator.IsEven(4);
+
+            // Assert 
+            Assert.IsTrue(isEven);
+        }
     }
 }
