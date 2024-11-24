@@ -12,5 +12,10 @@ namespace TDDScratch
         {
             return num1 + num2;
         }
+
+        public int Multiply(int num1, int num2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

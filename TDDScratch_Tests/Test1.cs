@@ -19,5 +19,17 @@ namespace TDDScratch_Tests
             // Assert
             Assert.AreEqual(5, result);
         }
+
+        [TestMethod]
+        public void MultiplyTwoNumbers()
+        {
+            var calculator = new Calculator();
+            int num1 = 4;
+            int num2 = 5;
+
+            int result = calculator.Multiply(num1, num2);
+
+            Assert.AreEqual(20, result);
+        }
     }
 }
