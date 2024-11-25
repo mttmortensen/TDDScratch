@@ -21,6 +21,13 @@ namespace TDDScratch
                 }
             }
 
+            // Handle the last word since there is no space 
+
+            if (words.Length - 1 != ' ')
+            {
+                count++;
+            }
+
             return count;
         }
 
