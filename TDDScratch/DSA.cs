@@ -8,6 +8,11 @@ namespace TDDScratch
 {
     public class DSA
     {
+        public int CountWords(string v)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool IsPrime(int num)
         {
             // Handling if the num is equal or greater than 1

@@ -80,5 +80,15 @@ namespace TDDScratch_Tests
 
             Assert.IsFalse(isPrime);
         }
+
+        [TestMethod]
+        public void CountWordsTest()
+        {
+            var dsa = new DSA();
+
+            int wordCount = dsa.CountWords("hello world");
+
+            Assert.AreEqual(2, wordCount);
+        }
     }
 }
