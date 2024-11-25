@@ -76,9 +76,9 @@ namespace TDDScratch_Tests
         {
             var dsa = new DSA();
 
-            bool isPrime = dsa.IsPrime(7);
+            bool isPrime = dsa.IsPrime(4);
 
-            Assert.IsTrue(isPrime);
+            Assert.IsFalse(isPrime);
         }
     }
 }

@@ -8,9 +8,23 @@ namespace TDDScratch
 {
     public class DSA
     {
-        public bool IsPrime(int v)
+        public bool IsPrime(int num)
         {
-            throw new NotImplementedException();
+            // Handling if the num is equal or greater than 1
+            if (num <= 1 ) return false;
+
+            // Handle the specifc edge case for 2 
+            if (num == 2) return true;
+
+            // Loop from 2 to sqr root of the number to check divisibility
+            for (int i = 2; i <= Math.Sqrt(num); i++)
+            {
+                // If number is divisible by 1, it's not prime
+                if (num % i == 0) return false;
+            }
+
+            // If no divisors found, then the number is prime
+            return true;
         }
 
         public string ReverseString(string stringToReverse)
