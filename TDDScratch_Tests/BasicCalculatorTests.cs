@@ -70,5 +70,15 @@ namespace TDDScratch_Tests
 
             Assert.AreEqual("noitarelecca", reversed);
         }
+
+        [TestMethod]
+        public void IsPrimeTest()
+        {
+            var dsa = new DSA();
+
+            bool isPrime = dsa.IsPrime(7);
+
+            Assert.IsTrue(isPrime);
+        }
     }
 }

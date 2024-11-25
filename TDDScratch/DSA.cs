@@ -8,6 +8,11 @@ namespace TDDScratch
 {
     public class DSA
     {
+        public bool IsPrime(int v)
+        {
+            throw new NotImplementedException();
+        }
+
         public string ReverseString(string stringToReverse)
         {
             string reversedString = "";
