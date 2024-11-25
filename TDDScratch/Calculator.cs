@@ -15,7 +15,7 @@ namespace TDDScratch
 
         public int CalculateRectangleArea(int b, int h)
         {
-            throw new NotImplementedException();
+            return b * h;
         }
 
         public double FahrenheitToCelsius(int f)
