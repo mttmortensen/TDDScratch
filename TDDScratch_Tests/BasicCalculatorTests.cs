@@ -86,9 +86,9 @@ namespace TDDScratch_Tests
         {
             var dsa = new DSA();
 
-            int wordCount = dsa.CountWords("hello world");
+            int wordCount = dsa.CountWords("hello world my name is Matt");
 
-            Assert.AreEqual(2, wordCount);
+            Assert.AreEqual(6, wordCount);
         }
     }
 }
