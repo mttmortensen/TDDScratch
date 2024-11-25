@@ -8,9 +8,20 @@ namespace TDDScratch
 {
     public class DSA
     {
-        public int CountWords(string v)
+        public int CountWords(string words)
         {
-            throw new NotImplementedException();
+
+            int count = 0;
+
+            for (int i = 0; i < words.Length; i++) 
+            {
+                if (words[i] == ' ')
+                {
+                    count++;
+                }
+            }
+
+            return count;
         }
 
         public bool IsPrime(int num)
