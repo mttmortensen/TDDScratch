@@ -56,6 +56,16 @@ namespace TDDScratch_Tests
             // Assert 
             Assert.AreEqual(23, celsius);
         }
+
+        [TestMethod]
+        public void GetAreaOfRectangleTest()
+        {
+            var calculator = new Calculator();
+
+            int area = calculator.CalculateRectangleArea(5, 10);
+
+            Assert.AreEqual(50, area);
+        }
     }
 
     [TestClass]
