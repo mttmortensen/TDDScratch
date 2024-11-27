@@ -4,9 +4,24 @@ namespace TDDScratch
 {
     public class Loops_112724
     {
-        public int CountVowels(string v)
+        public int CountVowels(string word)
         {
-            throw new NotImplementedException();
+            char[] vowels = ['a', 'e', 'i', 'o', 'u'];
+
+            int vowelCount = 0;
+
+            for (int i = 0; i <= word.Length; i++) 
+            {
+                for (int j = 0; j <= vowels.Length; j++)
+                {
+                    if (word[i] == vowels[j])
+                    {
+                        vowelCount++;
+                    }
+                }
+            }
+
+            return vowelCount;
         }
 
         public int SumOfNumbers(int num)
