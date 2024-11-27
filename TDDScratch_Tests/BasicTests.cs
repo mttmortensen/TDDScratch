@@ -101,4 +101,20 @@ namespace TDDScratch_Tests
             Assert.AreEqual(6, wordCount);
         }
     }
+
+    [TestClass]
+    public class LoopsTests
+    {
+        [TestMethod]
+        public void SumOfNumbersTest()
+        {
+            var loops = new Loops_112724();
+
+            int sum = loops.SumOfNumbers(5);
+
+            Assert.AreEqual(15, sum);
+            // This would mean the answer would need to look like so: 
+            // 1 + 2 + 3 + 4 + 5 = 15
+        }
+    }
 }
