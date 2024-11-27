@@ -110,9 +110,9 @@ namespace TDDScratch_Tests
         {
             var loops = new Loops_112724();
 
-            int sum = loops.SumOfNumbers(5);
+            int sum = loops.SumOfNumbers(10);
 
-            Assert.AreEqual(15, sum);
+            Assert.AreEqual(55, sum);
             // This would mean the answer would need to look like so: 
             // 1 + 2 + 3 + 4 + 5 = 15
         }
