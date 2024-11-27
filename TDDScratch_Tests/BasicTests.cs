@@ -128,5 +128,15 @@ namespace TDDScratch_Tests
             // For "Hello World" the output would be: 
             // 'e', 'o', 'o'
         }
+
+        [TestMethod]
+        public void GenerateMultiplicationTableTest()
+        {
+            var loop = new Loops_112724();
+
+            int[] table = loop.GenerateMultiplicationTable(3, 5);
+
+            CollectionAssert.AreEqual(new[] { 3, 6, 9, 12, 15 }, table);
+        }
     }
 }

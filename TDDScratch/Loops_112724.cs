@@ -1,5 +1,6 @@
 ﻿
 
+
 namespace TDDScratch
 {
     public class Loops_112724
@@ -33,6 +34,11 @@ namespace TDDScratch
                 total += i;
             }
             return total;
+        }
+    
+        public int[] GenerateMultiplicationTable(int v1, int v2)
+        {
+            throw new NotImplementedException();
         }
     }
 }
