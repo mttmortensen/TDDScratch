@@ -122,9 +122,9 @@ namespace TDDScratch_Tests
         {
             var loops = new Loops_112724();
 
-            int count = loops.CountVowels("Hello World");
+            int count = loops.CountVowels("My name is Matt");
 
-            Assert.AreEqual(3, count);
+            Assert.AreEqual(4, count);
             // For "Hello World" the output would be: 
             // 'e', 'o', 'o'
         }

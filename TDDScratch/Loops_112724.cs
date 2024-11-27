@@ -10,9 +10,9 @@ namespace TDDScratch
 
             int vowelCount = 0;
 
-            for (int i = 0; i <= word.Length; i++) 
+            for (int i = 0; i < word.Length - 1 ; i++) 
             {
-                for (int j = 0; j <= vowels.Length; j++)
+                for (int j = 0; j < vowels.Length - 1; j++)
                 {
                     if (word[i] == vowels[j])
                     {
