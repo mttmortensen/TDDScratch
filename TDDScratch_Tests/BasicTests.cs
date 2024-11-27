@@ -116,5 +116,17 @@ namespace TDDScratch_Tests
             // This would mean the answer would need to look like so: 
             // 1 + 2 + 3 + 4 + 5 = 15
         }
+
+        [TestMethod]
+        public void CountVowelsInAString()
+        {
+            var loops = new Loops_112724();
+
+            int count = loops.CountVowels("Hello World");
+
+            Assert.AreEqual(3, count);
+            // For "Hello World" the output would be: 
+            // 'e', 'o', 'o'
+        }
     }
 }
