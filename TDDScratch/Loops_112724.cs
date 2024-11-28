@@ -36,9 +36,16 @@ namespace TDDScratch
             return total;
         }
     
-        public int[] GenerateMultiplicationTable(int v1, int v2)
+        public int[] GenerateMultiplicationTable(int target, int targetAmount)
         {
-            throw new NotImplementedException();
+            int[] results = new int[targetAmount];
+
+            for (int i = 1; i <= targetAmount; i++)
+            {
+                results[i] = target * i;
+            }
+
+            return results;
         }
     }
 }
