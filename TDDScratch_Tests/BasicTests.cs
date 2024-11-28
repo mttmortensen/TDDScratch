@@ -134,9 +134,9 @@ namespace TDDScratch_Tests
         {
             var loop = new Loops_112724();
 
-            int[] table = loop.GenerateMultiplicationTable(3, 5);
+            int[] table = loop.GenerateMultiplicationTable(4, 6);
 
-            CollectionAssert.AreEqual(new[] { 3, 6, 9, 12, 15 }, table);
+            CollectionAssert.AreEqual(new[] { 4, 8, 12, 16, 20, 24 }, table);
         }
     }
 }
