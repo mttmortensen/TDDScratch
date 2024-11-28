@@ -39,10 +39,10 @@ namespace TDDScratch
         public int[] GenerateMultiplicationTable(int target, int targetAmount)
         {
             int[] results = new int[targetAmount];
-
-            for (int i = 1; i <= targetAmount; i++)
+            
+            for (int i = 0; i < targetAmount; i++)
             {
-                results[i] = target * i;
+                results[i] = target * (i + 1);
             }
 
             return results;
