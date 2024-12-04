@@ -4,6 +4,7 @@ namespace TDDScratch
 {
     public class Loops_120324
     {
+        // Only handling positive and whole numbers
         public int FindingMaxNumber(int[] numbersToCheck)
         {
             int maxNumber = int.MinValue;
