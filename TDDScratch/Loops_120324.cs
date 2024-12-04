@@ -1,6 +1,11 @@
-﻿namespace TDDScratch
+﻿
+namespace TDDScratch
 {
-    internal class Loops_120324
+    public class Loops_120324
     {
+        public bool IsPalindrome(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -138,5 +138,15 @@ namespace TDDScratch_Tests
 
             CollectionAssert.AreEqual(new[] { 4, 8, 12, 16, 20, 24 }, table);
         }
+
+        [TestMethod]
+        public void PalindromeCheck()
+        {
+            var loops = new Loops_120324();
+
+            bool isPalindrome = loops.IsPalindrome("madam");
+
+            Assert.IsTrue(isPalindrome);
+        }
     }
 }
