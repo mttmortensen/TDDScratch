@@ -148,5 +148,15 @@ namespace TDDScratch_Tests
 
             Assert.IsTrue(isPalindrome);
         }
+
+        [TestMethod]
+        public void FindMaximumNumberTest()
+        {
+            var loops = new Loops_120324();
+
+            int max = loops.FindingMaxNumber(new[] { 1, 6, 3, 9, 4, 6, 2 });
+
+            Assert.AreEqual(9, max);
+        }
     }
 }

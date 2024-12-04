@@ -1,8 +1,14 @@
 ﻿
+
 namespace TDDScratch
 {
     public class Loops_120324
     {
+        public int FindingMaxNumber(int[] ints)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool IsPalindrome(string wordToCheck)
         {
             string reversedWord = "";
