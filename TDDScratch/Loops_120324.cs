@@ -4,9 +4,19 @@ namespace TDDScratch
 {
     public class Loops_120324
     {
-        public int FindingMaxNumber(int[] ints)
+        public int FindingMaxNumber(int[] numbersToCheck)
         {
-            throw new NotImplementedException();
+            int maxNumber = int.MinValue;
+
+            for (int i = 0; i < numbersToCheck.Length; i++) 
+            {
+                if (numbersToCheck[i] > maxNumber)
+                {
+                    maxNumber = numbersToCheck[i];
+                }
+            }
+
+            return maxNumber;
         }
 
         public bool IsPalindrome(string wordToCheck)
