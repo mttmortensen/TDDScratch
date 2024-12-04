@@ -154,9 +154,9 @@ namespace TDDScratch_Tests
         {
             var loops = new Loops_120324();
 
-            int max = loops.FindingMaxNumber(new[] { 1, 6, 3, 9, 4, 6, 2 });
+            int max = loops.FindingMaxNumber(new[] { 1, 6, 3, 9, 44, 6, 2 });
 
-            Assert.AreEqual(9, max);
+            Assert.AreEqual(44, max);
         }
     }
 }
